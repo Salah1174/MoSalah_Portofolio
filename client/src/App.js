@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import axios from "axios";
 import Home from "./pages/Home";
+import Admin from "./pages/Admin";
 import { useEffect, useState } from "react";
 import Loader from "./components/Loader";
 import { useDispatch, useSelector } from "react-redux";
@@ -35,6 +36,7 @@ function App() {
       {loading ? <Loader /> : null}
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/admin" element={<Admin />} />
       </Routes>
     </BrowserRouter>
   );
