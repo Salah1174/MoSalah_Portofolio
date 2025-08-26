@@ -1,7 +1,6 @@
 export const projects = [
     {
         technologies: [],
-        _id: "ABC123",
         title: "IoT",
         image: "IoT Image",
         description: "Course IoT",
@@ -9,7 +8,6 @@ export const projects = [
     },
     {
         technologies: [],
-        _id: "ABC123",
         title: "IoT",
         image: "IoT Image",
         description: "Course IoT",
@@ -17,7 +15,6 @@ export const projects = [
     },
     {
         technologies: [],
-        _id: "ABC123",
         title: "IoT",
         image: "IoT Image",
         description: "Course IoT",
@@ -25,7 +22,6 @@ export const projects = [
     },
     {
         technologies: [],
-        _id: "ABC123",
         title: "IoT",
         image: "IoT Image",
         description: "Course IoT",
@@ -33,7 +29,6 @@ export const projects = [
     },
     {
         technologies: [],
-        _id: "ABC123",
         title: "IoT",
         image: "IoT Image",
         description: "Course IoT",
@@ -41,7 +36,7 @@ export const projects = [
     },
     {
         technologies: [],
-        _id: "ABC123",
+
         title: "IoT",
         image: "IoT Image",
         description: "Course IoT",
@@ -49,7 +44,7 @@ export const projects = [
     },
     {
         technologies: [],
-        _id: "ABC123",
+
         title: "IoT",
         image: "IoT Image",
         description: "Course IoT",
