@@ -44,14 +44,29 @@ function Projects() {
                 <h1 className="text-secondary text-xl">
                   {projects[selectedItemIndex].title}
                 </h1>
-                <h1 className="text-secondary text-xl">
-                  {projects[selectedItemIndex].link}
-                </h1>
-                <h1 className="text-tertiary text-xl">
-                  <p className="text-white">
-                    {projects[selectedItemIndex].description}
-                  </p>
-                </h1>
+                <a
+                  href={projects[selectedItemIndex].link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-secondary text-xl hover:text-blue-400 transition-colors duration-200"
+                >
+                  🔗 View Project
+                </a>
+                <div className="flex flex-wrap gap-2">
+                  {projects[selectedItemIndex].technologies?.map(
+                    (tech, index) => (
+                      <span
+                        key={index}
+                        className="px-3 py-1 bg-tertiary text-white rounded-full text-sm"
+                      >
+                        {tech}
+                      </span>
+                    )
+                  )}
+                </div>
+                <div className="text-white">
+                  <p>{projects[selectedItemIndex].description}</p>
+                </div>
               </div>
             </>
           )}

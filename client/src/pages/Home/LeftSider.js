@@ -8,10 +8,18 @@ function LeftSider() {
           <a href="https://www.google.com/">
             <i class="ri-facebook-circle-line text-gray-500 "></i>
           </a>
-          <i class="ri-mail-line text-gray-500 "></i>
-          <i class="ri-instagram-line text-gray-500 "></i>
-          <i class="ri-linkedin-box-line text-gray-500 "></i>
-          <i class="ri-github-line text-gray-500 "></i>
+          <a href="https://www.google.com/">
+            <i class="ri-mail-line text-gray-500 "></i>
+          </a>
+          <a href="https://www.google.com/">
+            <i class="ri-instagram-line text-gray-500 "></i>
+          </a>
+          <a href="https://www.google.com/">
+            <i class="ri-linkedin-box-line text-gray-500 "></i>
+          </a>
+          <a href="https://www.google.com/">
+            <i class="ri-github-line text-gray-500 "></i>
+          </a>
         </div>
         <div className="w-[1px] h-32 bg-[#125f63] sm:hidden"></div>
       </div>
